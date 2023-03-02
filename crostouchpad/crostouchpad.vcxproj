@@ -137,6 +137,7 @@
     <ClInclude Include="driver.h" />
     <ClInclude Include="hidcommon.h" />
     <ClInclude Include="i2c-hid.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="spb.h" />
     <ClInclude Include="stdint.h" />
     <ClInclude Include="trace.h" />
@@ -144,6 +145,9 @@
   <ItemGroup>
     <ClCompile Include="evetp.c" />
     <ClCompile Include="spb.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="crostouchpad4.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
